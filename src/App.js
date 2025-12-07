@@ -1821,10 +1821,10 @@ export default function ImprovedTestBankApp() {
                 return (
                   <button
                     key={index}
-                    onClick={() => selectSubject(lecture)}
+                    onClick={() => selectSubject(lesson)}
                     className="w-full text-left py-3 px-4 rounded-lg font-medium transition-all flex items-center justify-between bg-gradient-to-r from-blue-50 to-purple-50 hover:from-blue-100 hover:to-purple-100 text-gray-800"
                   >
-                    <span className="text-sm font-bold">{lecture}</span>
+                    <span className="text-sm font-bold">{lesson}</span>
                     <div className="flex items-center">
                       <span className="text-xs text-blue-600 mr-2">{subjectCount} subjects</span>
                       <ChevronRight className="w-4 h-4 text-blue-600" />
@@ -1913,7 +1913,7 @@ export default function ImprovedTestBankApp() {
                 min="1"
                 max={totalQuestions}
                 value={currentLimit}
-                onChange={([lesson, subjects]) => handleQuestionLimitChange(selectedSubject, e.target.value)}
+                onChange={(e) => handleQuestionLimitChange(selectedSubject, e.target.value)}
                 placeholder={`Enter 1-${totalQuestions}`}
                 className="w-full px-4 py-3 border-2 border-gray-300 rounded-xl focus:border-blue-500 focus:outline-none text-lg"
                 aria-label="Number of questions"
@@ -1928,7 +1928,7 @@ export default function ImprovedTestBankApp() {
                 <input
                   type="checkbox"
                   checked={studyMode}
-                  onChange={([lesson, subjects]) => setStudyMode(e.target.checked)}
+                  onChange={(e) => setStudyMode(e.target.checked)}
                   className="mr-3 w-5 h-5 text-blue-600"
                 />
                 <div>
@@ -1992,7 +1992,7 @@ export default function ImprovedTestBankApp() {
                 <input
                   type="checkbox"
                   checked={studyMode}
-                  onChange={([lesson, subjects]) => setStudyMode(e.target.checked)}
+                  onChange={(e) => setStudyMode(e.target.checked)}
                   className="mr-3 w-5 h-5 text-blue-600"
                 />
                 <div>
@@ -2058,10 +2058,10 @@ export default function ImprovedTestBankApp() {
                               min="1"
                               max={questionCount}
                               value={currentLimit}
-                              onChange={([lesson, subjects]) => handleQuestionLimitChange(subtopic, e.target.value)}
+                              onChange={(e) => handleQuestionLimitChange(subtopic, e.target.value)}
                               placeholder={`Max ${questionCount}`}
                               className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none text-sm"
-                              onClick={([lesson, subjects]) => e.stopPropagation()}
+                              onClick={(e) => e.stopPropagation()}
                               aria-label={`Number of questions for ${subtopic}`}
                             />
                             <button
@@ -2251,7 +2251,7 @@ export default function ImprovedTestBankApp() {
                   <button
                     key={index}
                     onClick={() => selectAnswer(index)}
-                    onKeyPress={([lesson, subjects]) => e.key === 'Enter' && selectAnswer(index)}
+                    onKeyPress={(e) => e.key === 'Enter' && selectAnswer(index)}
                     disabled={isAnswerSubmitted || isPaused}
                     role="radio"
                     aria-checked={isSelected}
