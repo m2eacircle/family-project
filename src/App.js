@@ -111,6 +111,10 @@ const subjectsWithSubtopics = {
     "1. Introduction to Dental Materials and Oral environment and patient considerations",
     "2. Physical and Mechanical properties of dental materials and General handling and safety of dental materials in the dental office",
     "3. Dental amalgams, Metals and Alloys"
+  ],
+  "Periodontology I": [
+    "1. Periodontal Anatomy",
+    "2. The microbiology of periodontal diseases"
   ]
 };
 
@@ -1698,6 +1702,12 @@ const questionBank = {
     { id: 1110, question: "Why are overhangs dangerous?", options: ["They change tooth color", "They trap plaque and increase periodontal disease risk", "They improve contact", "They prevent corrosion"], correct: 1 },
     { id: 1111, question: "How long does an amalgam restoration take to reach full strength?", options: ["1 hour", "6 hours", "12 hours", "About 24 hours"], correct: 3 },
     { id: 1112, question: "What is the biggest health risk related to mercury in dentistry?", options: ["Swallowed mercury", "Skin contact", "Mercury vapor inhalation", "Taste alteration"], correct: 2 }
+  ],
+  "1. Periodontal Anatomy": [
+    // Questions will be added here
+  ],
+  "2. The microbiology of periodontal diseases": [
+    // Questions to be added for this topic
   ]
 };
 
