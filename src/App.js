@@ -100,18 +100,23 @@ const subjectsWithSubtopics = {
     "Dental Hygiene Theory IV"
   ],
   "Pathophysiology": [
-    "Inflammation and Healing",
-    "Immunity and Infection (Part 1)",
-    "Immunity and Infection (Part 2)",
-    "Nervous System Disorders",
-    "Stress and Associated Problems",
-    "Blood and Circulatory System Disorders"
+    "1. Inflammation and Healing",
+    "2. Immunity and Infection (Part 1)",
+    "3. Immunity and Infection (Part 2)",
+    "4. Nervous System Disorders",
+    "5. Stress and Associated Problems",
+    "6. Blood and Circulatory System Disorders"
+  ],
+  "Dental Materials Theory": [
+    "1. Introduction to Dental Materials and Oral environment and patient considerations",
+    "2. Physical and Mechanical properties of dental materials and General handling and safety of dental materials in the dental office",
+    "3. Dental amalgams, Metals and Alloys"
   ]
 };
 
 // Question bank - ready for questions to be added
 const questionBank = {
-  "Inflammation and Healing": [
+  "1. Inflammation and Healing": [
     { id: 101, question: "Which of the following belongs to the first line of defense?", options: ["Neutrophils", "Intact skin and mucous membranes", "T lymphocytes", "Antibodies"], correct: 1 },
     { id: 102, question: "Which lines of defense are considered non-specific?", options: ["First line only", "First and second lines", "Second and third lines", "Third line only"], correct: 1 },
     { id: 103, question: "Which is part of the second line of defense?", options: ["Skin", "Antibodies", "Inflammation", "Mucus"], correct: 2 },
@@ -220,7 +225,7 @@ const questionBank = {
     { id: 206, question: "A patient with pneumonia develops a fibrinous exudate in the lungs. This indicates:", options: ["Mild inflammation", "Severe inflammation", "Viral infection", "Full tissue regeneration"], correct: 1 },
     { id: 207, question: "A patient's burn extends through epidermis, dermis, and subcutaneous tissue. Eschar is present. Which treatment is MOST likely required?", options: ["Ice packs", "Antibiotics only", "Skin graft", "NSAIDs only"], correct: 2 }
   ],
-  "Immunity and Infection (Part 1)": [
+  "2. Immunity and Infection (Part 1)": [
     { id: 201, question: "Which of the following is a nonspecific immune response?", options: ["Antibody production", "Cell-mediated immunity", "Inflammation", "IgE synthesis"], correct: 2 },
     { id: 202, question: "Which immune response is mediated by B-lymphocytes?", options: ["Cell-mediated immunity", "Humoral immunity", "Nonspecific immunity", "Delayed hypersensitivity"], correct: 1 },
     { id: 203, question: "Where do T-lymphocytes mature?", options: ["Bone marrow", "Thymus", "Spleen", "Lymph nodes"], correct: 1 },
@@ -406,7 +411,7 @@ const questionBank = {
     { id: 383, question: "Which step occurs LAST during phagocytosis?", options: ["Internalization", "Lysosome fusion", "Pseudopod formation", "Residual body release"], correct: 3 },
     { id: 384, question: "A patient with HIV develops violaceous lesions on legs and palate. Which additional finding is MOST expected?", options: ["Viral load low", "Caused by Candida species", "Caused by HHV-8 infection", "Resolves with antihistamines"], correct: 2 }
   ],
-  "Immunity and Infection (Part 2)": [
+  "3. Immunity and Infection (Part 2)": [
     { id: 201, question: "Which complement activation pathway is antibody-independent?", options: ["Classical pathway", "Alternative pathway", "Lectin pathway", "Adaptive pathway"], correct: 1 },
     { id: 202, question: "Which protein is the key initiator of the classical pathway?", options: ["C1", "C3", "C5", "C9"], correct: 0 },
     { id: 203, question: "Which protein is the key initiator of the alternative pathway?", options: ["C1", "C3", "IgG", "C9"], correct: 1 },
@@ -808,7 +813,7 @@ const questionBank = {
     { id: 599, question: "Which best describes secondary brain tumors?", options: ["Originate in astrocytes", "Rarely metastasize", "Originate from cancers outside CNS", "Usually present in childhood"], correct: 2 },
     { id: 600, question: "Which receptor is activated on the sympathetic postganglionic target organ?", options: ["Muscarinic", "Nicotinic", "Adrenergic", "Serotonergic"], correct: 2 }
   ],
-  "Nervous System Disorders": [
+  "4. Nervous System Disorders": [
     { id: 701, question: "Which substance crosses the BBB most easily?", options: ["Sodium", "Glucose", "Water", "Lipid-soluble substances"], correct: 3 },
     { id: 702, question: "Why is a poorly developed BBB dangerous in neonates?", options: ["They produce too much CSF", "Toxins and drugs can enter the brain easily", "Myelin blocks nutrient flow", "Gray matter is less developed"], correct: 1 },
     { id: 703, question: "Why is a fully developed BBB a problem in adults?", options: ["It increases CSF production", "It prevents synapse formation", "Most antibiotics cannot enter the CNS", "It causes neuronal swelling"], correct: 2 },
@@ -1060,7 +1065,7 @@ const questionBank = {
     { id: 949, question: "A 70-year-old woman cannot dress herself, wanders outside, and fails to recognize her daughter. This indicates:", options: ["Early dementia", "Advanced Alzheimer's", "Stroke recovery", "Normal aging"], correct: 1 },
     { id: 950, question: "A 65-year-old shows arm stiffness, brisk reflexes, but also visible muscle twitches. Which mechanism explains BOTH findings?", options: ["UMN + LMN degeneration", "Pure sensory loss", "Increased dopamine", "Immune-mediated demyelination"], correct: 0 }
   ],
-  "Stress and Associated Problems": [
+  "5. Stress and Associated Problems": [
     { id: 501, question: "Which stage of the General Adaptation Syndrome involves catecholamine release?", options: ["Exhaustion stage", "Resistance stage", "Alarm stage", "Recovery stage"], correct: 2 },
     { id: 502, question: "Which organ is MOST responsible for initiating the stress response?", options: ["Thalamus", "Hypothalamus", "Cerebellum", "Pituitary gland"], correct: 1 },
     { id: 503, question: "Which hormone increases during the resistance stage?", options: ["Oxytocin", "Insulin", "Cortisol", "Melatonin"], correct: 2 },
@@ -1177,7 +1182,7 @@ const questionBank = {
     { id: 614, question: "A student under constant stress decides to: Sleep 7–8 hours regularly, Eat balanced meals, Do 30 minutes of moderate exercise daily, Attend counselling once a week. These behaviors are best described as:", options: ["Precipitating factors", "Exacerbating factors", "Healthy coping strategies", "Symptoms of PTSD"], correct: 2 },
     { id: 615, question: "A chronic eczema patient is stable for months. Then she starts a very stressful new job, and her eczema suddenly flares up. Which statement is MOST accurate?", options: ["Stress is the precipitating factor and eczema is the exacerbating factor", "Eczema is the precipitating factor and stress is the exacerbating factor", "Both are precipitating factors", "Neither is related"], correct: 1 }
   ],
-  "Blood and Circulatory System Disorders": [
+  "6. Blood and Circulatory System Disorders": [
     { id: 601, question: "Which component makes up 55% of total blood volume?", options: ["Hematocrit", "RBCs", "Plasma", "Platelets"], correct: 2 },
     { id: 602, question: "The hematocrit is composed primarily of:", options: ["WBCs", "Plasma proteins", "RBCs", "Platelets"], correct: 2 },
     { id: 603, question: "Which blood vessel type is the ONLY site of gas and nutrient exchange?", options: ["Arteries", "Veins", "Arterioles", "Capillaries"], correct: 3 },
@@ -1340,6 +1345,15 @@ const questionBank = {
     { id: 760, question: "Which three components did the professor highlight as especially important for blood clotting?", options: ["Albumin, hemoglobin, sodium", "Calcium, vitamin K, and clotting factor VIII", "Iron, vitamin C, and albumin", "Glucose, insulin, and fibrinogen"], correct: 1 },
     { id: 761, question: "Correct sequence of events in hemostasis (clot formation) is:", options: ["Coagulation → vasoconstriction → platelet plug", "Platelet plug → vasoconstriction → coagulation", "Vasoconstriction → platelet accumulation (platelet plug) → coagulation", "Coagulation → platelet accumulation → vasodilation"], correct: 2 },
     { id: 762, question: "The breakdown of a blood clot (fibrin) is called:", options: ["Hematopoiesis", "Fibrinolysis", "Diapedesis", "Hemostasis"], correct: 1 }
+  ],
+  "1. Introduction to Dental Materials and Oral environment and patient considerations": [
+    // Questions to be added for this topic
+  ],
+  "2. Physical and Mechanical properties of dental materials and General handling and safety of dental materials in the dental office": [
+    // Questions to be added for this topic
+  ],
+  "3. Dental amalgams, Metals and Alloys": [
+    // Questions to be added for this topic
   ]
 };
 
