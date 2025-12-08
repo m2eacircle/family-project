@@ -1341,7 +1341,67 @@ const questionBank = {
     { id: 759, question: "Plasma minus clotting factors is called:", options: ["Serum", "Bile", "Lymph", "Interstitial fluid"], correct: 0 },
     { id: 760, question: "Which three components are especially important for blood clotting?", options: ["Albumin, hemoglobin, sodium", "Calcium, vitamin K, and clotting factor VIII", "Iron, vitamin C, and albumin", "Glucose, insulin, and fibrinogen"], correct: 1 },
     { id: 761, question: "Correct sequence of events in hemostasis (clot formation) is:", options: ["Coagulation → vasoconstriction → platelet plug", "Platelet plug → vasoconstriction → coagulation", "Vasoconstriction → platelet accumulation (platelet plug) → coagulation", "Coagulation → platelet accumulation → vasodilation"], correct: 2 },
-    { id: 762, question: "The breakdown of a blood clot (fibrin) is called:", options: ["Hematopoiesis", "Fibrinolysis", "Diapedesis", "Hemostasis"], correct: 1 }
+    { id: 762, question: "The breakdown of a blood clot (fibrin) is called:", options: ["Hematopoiesis", "Fibrinolysis", "Diapedesis", "Hemostasis"], correct: 1 },
+    { id: 763, question: "Which of the following is NOT a major function of blood?", options: ["Transport of oxygen and nutrients", "Removal of cellular waste products", "Production of bile", "Contribution to immune defense"], correct: 2 },
+    { id: 764, question: "Approximately how many liters of blood does an average adult have?", options: ["1–2 L", "3 L", "5 L", "9–10 L"], correct: 2 },
+    { id: 765, question: "Which sequence correctly represents blood flow from artery to vein?", options: ["Artery → Vein → Capillary → Arteriole → Venule", "Vein → Capillary → Artery → Venule → Arteriole", "Artery → Arteriole → Capillary → Venule → Vein", "Capillary → Artery → Arteriole → Vein → Venule"], correct: 2 },
+    { id: 766, question: "The site of exchange of gases, nutrients, and wastes between blood and tissues is:", options: ["Arteries", "Capillaries", "Veins", "Heart"], correct: 1 },
+    { id: 767, question: "Which statement about blood composition is correct?", options: ["Plasma = 90% of blood volume", "Cells (formed elements) = about 45% of blood volume", "White blood cells are 55% of blood volume", "Platelets are more than 50% of blood volume"], correct: 1 },
+    { id: 768, question: "Hematocrit refers to:", options: ["Percentage of plasma in blood", "Percentage of clotting factors in serum", "Percentage of formed elements (mainly RBCs) in blood", "Percentage of WBCs only"], correct: 2 },
+    { id: 769, question: "In general, hematocrit is:", options: ["Higher in females than males", "Higher in males than females", "The same in both sexes", "Only present in children"], correct: 1 },
+    { id: 770, question: "Plasma minus clotting factors is called:", options: ["Lymph", "Serum", "Interstitial fluid", "Bile"], correct: 1 },
+    { id: 771, question: "Which plasma protein is mainly responsible for osmotic pressure of blood?", options: ["Fibrinogen", "Hemoglobin", "Albumin", "Globulin"], correct: 2 },
+    { id: 772, question: "Which of the following is TRUE about erythrocytes?", options: ["They are nucleated in peripheral blood", "They are biconcave and anucleate when mature", "They primarily perform phagocytosis", "They are the least abundant blood cell"], correct: 1 },
+    { id: 773, question: "The main function of hemoglobin is:", options: ["To digest pathogens", "To transport oxygen and carbon dioxide", "To produce hormones", "To synthesize clotting factors"], correct: 1 },
+    { id: 774, question: "Which combination is correctly matched?", options: ["Oxygen binds to the globin part", "Carbon dioxide binds to the heme part", "Oxygen binds to heme, and carbon dioxide binds to globin", "Both oxygen and carbon dioxide bind only to iron"], correct: 2 },
+    { id: 775, question: "The combination of hemoglobin and oxygen is called:", options: ["Deoxyhemoglobin", "Carbaminohemoglobin", "Oxyhemoglobin", "Methemoglobin"], correct: 2 },
+    { id: 776, question: "The hormone primarily responsible for stimulating RBC production in bone marrow is:", options: ["Insulin", "Erythropoietin", "Cortisol", "Thyroxine"], correct: 1 },
+    { id: 777, question: "Excess iron is stored in tissues (especially the liver) as:", options: ["Albumin", "Hemosiderin and ferritin", "Bilirubin", "Cholesterol"], correct: 1 },
+    { id: 778, question: "A hereditary condition characterized by massive iron accumulation in the liver is:", options: ["Hemophilia", "Hemochromatosis", "Leukemia", "Thrombocytopenia"], correct: 1 },
+    { id: 779, question: "Which statement about bilirubin is CORRECT?", options: ["It is formed from breakdown of plasma proteins", "It is a yellow pigment formed from the heme portion of hemoglobin", "It is produced by platelets", "It is conjugated in the kidney"], correct: 1 },
+    { id: 780, question: "Which group correctly lists the granulocytes?", options: ["Neutrophils, eosinophils, basophils", "Lymphocytes, monocytes", "Erythrocytes, neutrophils, lymphocytes", "Monocytes, basophils"], correct: 0 },
+    { id: 781, question: "Which group correctly lists the agranulocytes?", options: ["Neutrophils and eosinophils", "Basophils and platelets", "Lymphocytes and monocytes", "Erythrocytes and neutrophils"], correct: 2 },
+    { id: 782, question: "Which leukocytes are especially important in allergic reactions and parasitic infections?", options: ["Neutrophils", "Eosinophils", "Basophils", "Lymphocytes"], correct: 1 },
+    { id: 783, question: "Which cells release histamine and heparin and are involved in inflammatory reactions?", options: ["Neutrophils", "Eosinophils", "Basophils", "Platelets"], correct: 2 },
+    { id: 784, question: "Which two leukocytes are emphasized as capable of diapedesis (actively leaving the bloodstream into tissues)?", options: ["Neutrophils and eosinophils", "Lymphocytes and platelets", "Basophils and monocytes", "Erythrocytes and neutrophils"], correct: 2 },
+    { id: 785, question: "Lymphocytes are mainly responsible for:", options: ["Blood clotting", "Oxygen transport", "Specific (adaptive) immune responses", "Maintaining osmotic pressure"], correct: 2 },
+    { id: 786, question: "Platelets (thrombocytes):", options: ["Are large nucleated cells", "Are necessary for hemostasis (clot formation)", "Carry oxygen", "Produce antibodies"], correct: 1 },
+    { id: 787, question: "Which sequence correctly describes the three main steps of hemostasis?", options: ["Coagulation → Vasoconstriction → Platelet plug", "Vasoconstriction → Platelet plug formation → Coagulation", "Platelet plug → Fibrinolysis → Vasodilation", "Fibrinolysis → Coagulation → Vasoconstriction"], correct: 1 },
+    { id: 788, question: "The breakdown of a blood clot (fibrin) is called:", options: ["Hematopoiesis", "Diapedesis", "Fibrinolysis", "Hemolysis"], correct: 2 },
+    { id: 789, question: "Which of the following acts as a natural anticoagulant?", options: ["Albumin", "Heparin", "Hemoglobin", "Bilirubin"], correct: 1 },
+    { id: 790, question: "Which three items were highlighted as especially important for blood coagulation?", options: ["Albumin, hemoglobin, sodium", "Calcium, vitamin K, and clotting factor VIII", "Iron, vitamin C, and fibrinogen", "Bilirubin, histamine, and serotonin"], correct: 1 },
+    { id: 791, question: "In the ABO system, antigens are located:", options: ["In plasma", "On the surface of erythrocytes", "On platelets only", "Only in the liver"], correct: 1 },
+    { id: 792, question: "In the ABO system, antibodies are primarily found:", options: ["On the surface of RBCs", "In plasma", "In bone marrow", "Only in lymph nodes"], correct: 1 },
+    { id: 793, question: "Which blood type is the universal donor (true universal donor)?", options: ["A+", "O+", "O−", "AB+"], correct: 2 },
+    { id: 794, question: "Which blood type is the universal recipient (true universal recipient)?", options: ["O−", "AB+", "A−", "B+"], correct: 1 },
+    { id: 795, question: "A person with blood type A− can safely receive RBCs from which of the following types? (Ignore plasma)", options: ["A− and O− only", "A+, AB+, and O+", "O+ only", "AB− only"], correct: 0 },
+    { id: 796, question: "All types of anemia ultimately result in:", options: ["Increased oxygen transport", "Significant reduction in oxygen transport", "Increased WBC production", "Increased blood viscosity"], correct: 1 },
+    { id: 797, question: "A common compensatory mechanism in anemia includes:", options: ["Bradycardia", "Vasodilation and bradycardia", "Vasoconstriction and tachycardia", "Suppression of bone marrow"], correct: 2 },
+    { id: 798, question: "Common general signs of anemia include ALL of the following EXCEPT:", options: ["Pallor", "Fatigue", "Dyspnea (shortness of breath)", "Weight gain and edema only"], correct: 3 },
+    { id: 799, question: "In iron deficiency anemia, RBCs are typically:", options: ["Macrocytic and hyperchromic", "Microcytic and hypochromic", "Normocytic and normochromic", "Absent completely"], correct: 1 },
+    { id: 800, question: "Which is NOT a typical cause (etiology) of iron deficiency anemia?", options: ["Insufficient iron intake", "Malabsorption of iron", "Chronic blood loss", "Deficiency of vitamin B12 only"], correct: 3 },
+    { id: 801, question: "Which additional symptoms were emphasized as more specific for iron deficiency anemia?", options: ["Stomatitis, glossitis, and menstrual irregularities", "Only jaundice", "Only bone pain", "Only peripheral neuropathy"], correct: 0 },
+    { id: 802, question: "Pernicious anemia is primarily due to deficiency of:", options: ["Iron", "Vitamin C", "Vitamin B12 and folic acid (B9)", "Vitamin K"], correct: 2 },
+    { id: 803, question: "RBCs in pernicious anemia are best described as:", options: ["Microcytic, hypochromic", "Normocytic, normochromic", "Megaloblastic / macrocytic with low hemoglobin", "Completely absent"], correct: 2 },
+    { id: 804, question: "Which clinical features were emphasized for pernicious anemia?", options: ["Glossitis, paresthesia, and digestive discomfort", "Only chest pain", "Only edema", "Only cough and fever"], correct: 0 },
+    { id: 805, question: "Aplastic anemia is mainly due to:", options: ["Increased RBC destruction in the spleen", "Impairment or failure of bone marrow", "Loss of intrinsic factor in the stomach", "Iron overload in the liver"], correct: 1 },
+    { id: 806, question: "Which two lab findings are particularly associated with aplastic anemia?", options: ["Leukocytosis and thrombocytosis", "Leukopenia and thrombocytopenia", "Polycythemia and leukocytosis", "Increased platelets with normal WBC"], correct: 1 },
+    { id: 807, question: "Hemolytic anemias are characterized by:", options: ["Decreased destruction of RBCs", "Excessive destruction (hemolysis) of RBCs", "Lack of WBCs", "Only iron deficiency"], correct: 1 },
+    { id: 808, question: "In sickle cell anemia, which is TRUE?", options: ["RBCs are normal in shape but fewer", "RBCs become sickle-shaped and can obstruct small vessels", "It is due to vitamin K deficiency", "It only occurs in old age"], correct: 1 },
+    { id: 809, question: "Thalassemia is:", options: ["A viral infection of WBCs", "A genetic disorder affecting the alpha and/or beta chains of hemoglobin", "Caused only by iron deficiency", "An autoimmune disease"], correct: 1 },
+    { id: 810, question: "Thalassemia minor usually means:", options: ["Homozygous severe disease", "Heterozygous carrier with milder symptoms", "No abnormal gene", "Acute infection"], correct: 1 },
+    { id: 811, question: "Predisposing factors to bleeding/clotting disorders include all EXCEPT:", options: ["Thrombocytopenia", "Vitamin K deficiency", "Liver disease", "Increased hemoglobin only"], correct: 3 },
+    { id: 812, question: "Hemophilia A is due to deficiency of:", options: ["Factor II", "Factor V", "Factor VIII", "Factor X"], correct: 2 },
+    { id: 813, question: "Hemophilia A inheritance pattern is:", options: ["Autosomal dominant", "Autosomal recessive", "X-linked (sex-linked) recessive", "Y-linked"], correct: 2 },
+    { id: 814, question: "A typical symptom of hemophilia A is:", options: ["Hypercoagulation and thrombosis", "Severe hemorrhage after minor trauma and hemarthrosis (blood in joints)", "Tinnitus and vertigo only", "Brown discoloration of teeth"], correct: 1 },
+    { id: 815, question: "Leukemia is best defined as:", options: ["Overproduction of platelets", "Overproduction of erythrocytes", "Uncontrolled multiplication of leukocytes", "Failure of the liver to produce albumin"], correct: 2 },
+    { id: 816, question: "Acute leukemia is characterized by:", options: ["Overproduction of mature cells, usually in older adults", "Overproduction of immature cells, often in children", "Only platelet abnormalities", "Only RBC abnormalities"], correct: 1 },
+    { id: 817, question: "ALL stands for:", options: ["Acute Liver Lesion", "Acute Lymphocytic Leukemia", "Adult Lymph Node Loss", "Acute Low Leukocyte"], correct: 1 },
+    { id: 818, question: "AML stands for:", options: ["Acute Myelogenous Leukemia", "Acute Muscle Lesion", "Adult Myeloid Loss", "Autoimmune Myelitis"], correct: 0 },
+    { id: 819, question: "Chronic leukemia (CLL, CML) is more likely to involve:", options: ["Immature cells in children", "Mature cells in older adults", "Only platelets", "Only erythrocytes"], correct: 1 },
+    { id: 820, question: "Common clinical features of leukemia include:", options: ["Severe hemorrhage, bone pain, weight loss, splenomegaly and hepatomegaly", "Only cough and sputum", "Only diarrhea", "Only hypertension"], correct: 0 },
+    { id: 821, question: "Which treatment options were mentioned for leukemia?", options: ["Vitamin B12 injections only", "Chemotherapy, interferons, and bone marrow transplantation in severe cases", "Only iron supplements", "Only surgery"], correct: 1 },
+    { id: 822, question: "A 25-year-old woman presents with fatigue, pallor, shortness of breath on exertion, and very pale, small RBCs on blood smear. She reports heavy menstrual periods and poor diet. Which diagnosis is most likely?", options: ["Iron deficiency anemia", "Pernicious anemia", "Aplastic anemia", "Hemophilia A"], correct: 0 }
   ],
   "1. Introduction to Dental Materials and Oral environment and patient considerations": [
     // Questions to be added for this topic
@@ -1395,7 +1455,6 @@ export default function ImprovedTestBankApp() {
   const [testHistory, setTestHistory] = useState([]);
   const [selectedQuestions, setSelectedQuestions] = useState([]);
   const [questionLimit, setQuestionLimit] = useState({});
-  const [shuffledOptions, setShuffledOptions] = useState([]);
   const [isAnswerSubmitted, setIsAnswerSubmitted] = useState(false);
   const [studyMode, setStudyMode] = useState(false);
   const [flaggedQuestions, setFlaggedQuestions] = useState([]);
@@ -1530,21 +1589,6 @@ export default function ImprovedTestBankApp() {
     return shuffled;
   };
 
-  const shuffleOptions = (question) => {
-    const optionsWithIndex = question.options.map((option, index) => ({
-      text: option,
-      originalIndex: index
-    }));
-    
-    const shuffled = [...optionsWithIndex];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-    }
-    
-    return shuffled;
-  };
-
   const startTest = (subject, subtopic = null, isRetake = false) => {
     try {
       // Store parent for back navigation
@@ -1606,10 +1650,6 @@ export default function ImprovedTestBankApp() {
       
       setSelectedQuestions(questionsToUse);
       
-      // Shuffle options for all questions
-      const allShuffledOptions = questionsToUse.map(q => shuffleOptions(q));
-      setShuffledOptions(allShuffledOptions);
-      
       const totalTime = studyMode ? 0 : questionsToUse.length * 90;
       setTimeLeft(totalTime);
       setTotalTestTime(totalTime);
@@ -1650,10 +1690,6 @@ export default function ImprovedTestBankApp() {
       
       setSelectedQuestions(flaggedQs);
       
-      // Shuffle options for all questions
-      const allShuffledOptions = flaggedQs.map(q => shuffleOptions(q));
-      setShuffledOptions(allShuffledOptions);
-      
       const totalTime = studyMode ? 0 : flaggedQs.length * 90;
       setTimeLeft(totalTime);
       setTotalTestTime(totalTime);
@@ -1690,22 +1726,17 @@ export default function ImprovedTestBankApp() {
 
   const nextQuestion = () => {
     const currentQuestion = selectedQuestions[currentQuestionIndex];
-    const currentShuffledOptions = shuffledOptions[currentQuestionIndex];
     
-    // Map the selected shuffled option back to original index
-    const originalCorrectIndex = selectedAnswer !== null 
-      ? currentShuffledOptions[selectedAnswer]?.originalIndex 
-      : null;
-    
-    const newAnswers = [...answers, originalCorrectIndex];
+    // Use selectedAnswer directly (no shuffling)
+    const newAnswers = [...answers, selectedAnswer];
     setAnswers(newAnswers);
     
     // Store for review
     const reviewData = {
       question: currentQuestion,
-      selectedAnswer: originalCorrectIndex,
+      selectedAnswer: selectedAnswer,
       correctAnswer: currentQuestion.correct,
-      isCorrect: originalCorrectIndex === currentQuestion.correct
+      isCorrect: selectedAnswer === currentQuestion.correct
     };
     setReviewAnswers([...reviewAnswers, reviewData]);
     
@@ -2109,7 +2140,6 @@ export default function ImprovedTestBankApp() {
   // Test Screen
   if (screen === 'test') {
     const currentQuestion = selectedQuestions[currentQuestionIndex];
-    const currentShuffledOptions = shuffledOptions[currentQuestionIndex];
     const showAdBetweenQuestions = currentQuestionIndex > 0 && !isAnswerSubmitted;
     
     if (!currentQuestion) {
@@ -2128,10 +2158,7 @@ export default function ImprovedTestBankApp() {
       );
     }
     
-    const correctAnswerIndex = currentShuffledOptions.findIndex(
-      opt => opt.originalIndex === currentQuestion.correct
-    );
-    const isCorrect = selectedAnswer === correctAnswerIndex;
+    const isCorrect = selectedAnswer === currentQuestion.correct;
     const isFlagged = flaggedQuestions.includes(currentQuestion.id);
     
     return (
@@ -2240,8 +2267,8 @@ export default function ImprovedTestBankApp() {
             </h2>
 
             <div className="space-y-3">
-              {currentShuffledOptions.map((option, index) => {
-                const isThisCorrect = index === correctAnswerIndex;
+              {currentQuestion.options.map((option, index) => {
+                const isThisCorrect = index === currentQuestion.correct;
                 const isSelected = selectedAnswer === index;
                 
                 let buttonClass = 'bg-gray-100 text-gray-700 hover:bg-gray-200';
@@ -2266,12 +2293,12 @@ export default function ImprovedTestBankApp() {
                     disabled={isAnswerSubmitted || isPaused}
                     role="radio"
                     aria-checked={isSelected}
-                    aria-label={`Answer ${String.fromCharCode(65 + index)}: ${option.text}`}
+                    aria-label={`Answer ${String.fromCharCode(65 + index)}: ${option}`}
                     tabIndex={0}
                     className={`w-full p-4 rounded-xl text-left font-medium transition-all ${buttonClass} ${isAnswerSubmitted || isPaused ? 'cursor-default' : ''}`}
                   >
                     <span className="mr-3">{String.fromCharCode(65 + index)}.</span>
-                    {option.text}
+                    {option}
                   </button>
                 );
               })}
