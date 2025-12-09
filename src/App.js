@@ -115,6 +115,16 @@ const subjectsWithSubtopics = {
   "Periodontology I": [
     "1. Periodontal Anatomy",
     "2. The microbiology of periodontal diseases"
+  ],
+  "Dental Radiography Theory": [
+    "1. Radiation History & Radiation Physics",
+    "2. Dental X-ray Equipment, Film Processing",
+    "3. Dental Radiography Theory",
+    "4. Dental Radiography Theory",
+    "5. Dental Radiography Theory",
+    "6. Dental Radiography Theory",
+    "7. Dental Radiography Theory",
+    "8. Dental Radiography Theory"
   ]
 };
 
@@ -2168,6 +2178,30 @@ const questionBank = {
     { id: 1572, question: "\"Less orderly collagen insertion\" is often seen in:", options: ["Cellular/reparative cementum areas", "Enamel rod ends", "Healthy bone crest", "MGJ"], correct: 0 },
     { id: 1573, question: "A major reason the sulcus is a key plaque niche:", options: ["Saliva cannot reach", "Anatomy protects bacterial retention near the sulcus/col", "It is constantly acid-etched", "It has no fluid"], correct: 1 },
     { id: 1574, question: "Early deviation from health in free gingiva often shows first as:", options: ["Deep caries", "Color/contour changes (redness, swelling, rolled margin)", "Enamel hypoplasia", "Pulp calcification"], correct: 1 }
+  ],
+  "1. Radiation History & Radiation Physics": [
+    // Questions to be added for this topic
+  ],
+  "2. Dental X-ray Equipment, Film Processing": [
+    // Questions to be added for this topic
+  ],
+  "3. Dental Radiography Theory": [
+    // Questions to be added for this topic
+  ],
+  "4. Dental Radiography Theory": [
+    // Questions to be added for this topic
+  ],
+  "5. Dental Radiography Theory": [
+    // Questions to be added for this topic
+  ],
+  "6. Dental Radiography Theory": [
+    // Questions to be added for this topic
+  ],
+  "7. Dental Radiography Theory": [
+    // Questions to be added for this topic
+  ],
+  "8. Dental Radiography Theory": [
+    // Questions to be added for this topic
   ]
 };
 
